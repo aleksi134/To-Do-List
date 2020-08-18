@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,49 +15,33 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h1>To-Do List</h1>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center textInput">
-                <h2>Enter text in the input field to add items to your list.</h2>
+            <div class="col-sm-12">
+                <h1 >To-Do List</h1>
+                <h2 id="first">Enter text in the input field to add items to your list.</h2>
+                <h2 id="second">Click the item to mark it as complete.</h2>
+                <h2 id="third"> Click the "X" to remove an item from your list.</h2>
             </div>
         </div>
-    </div>
 
-    <div class="container">
         <div class="row">
-            <div class="col-sm-12 complete text-center">
-                <h2>Click the item to mark it as complete.</h2>
+            <div class="col-sm-12">
+                <input class="w-75" id="userInputField" type="text" placeholder="  Add new task..." maxlength="28">
+                <input class="enter btn btn-outline-dark" type="button" value="Enter">
             </div>
         </div>
-    </div>
+<!--empty list-->
+        <div class="row">
+            <div class="listItems col-sm-12">
+                <ul class="col-12"></ul>
+            </div>
+        </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 remove text-center">
-                <h2>Click the "X" to remove an item from your list.</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <input id="userInputField" type="text" placeholder="  Add new task..." maxlength="28">
-                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
-            </div>
-        </div>
     </div>
 
 
-   
-      
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, links to javascript -->

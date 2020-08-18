@@ -5,36 +5,46 @@
 
 body {
     background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 5em;
     color: white;
     font-weight: bold;
+    margin: 0 1rem 3rem 1rem;
 }
 
 h2 {
     margin: 1rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
 }
 
-.textInput {
+#first {
+    font-size: 1.5em;
     color: rgb(182, 182, 9);
 }
 
-.complete {
+#second {
+    font-size: 1.5em;
     color: rgb(11, 253, 11);
     font-weight: bold;
+    
 }
 
-.remove {
+#third {
+    font-size: 1.5em;
     color: rgb(196, 5, 5);
     font-weight: bold;
     margin-bottom: 3rem;
 }
 
 #userInputField {
-    width: 1000px;
-    height: 40px;
+    height: 50px;
     border-radius: 0.5rem;
 }
+
+
+
